@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Accesibilidad Web en Almeria I
-date: 2020-12-06T23:41:50.020Z
+date: 2005-05-03T22:41:50.020Z
 tags:
   - accesibilidad
   - almeria
