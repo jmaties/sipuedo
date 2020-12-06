@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: " 11 Feb 2005    |    Comentario   0 Comentarios\t Y otro más…"
+title: Y otro más…
 date: 2005-02-11T22:48:43.786Z
 tags:
   - accesibilidad
