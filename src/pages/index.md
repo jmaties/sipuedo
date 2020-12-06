@@ -1,16 +1,13 @@
 ---
 templateKey: index-page
-title: Una utopia
+title: Si Puedo
 image: /img/alcazaba.jpg
 heading: Una utopia
 subheading: Desarrollo web bajo open source y temas personales
 mainpitch:
-  title: Why Kaldi
+  title: ¿Por qué Si Puedo?
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Hace unos 15 años que me hago esa pregunta y todavía no he logrado encontrar la respuesta
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
