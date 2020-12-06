@@ -4,6 +4,7 @@ title: En plena acera
 date: 2005-02-10T21:54:26.088Z
 tags:
   - accesibilidad
+  - barreras
 ---
 Esta mañana nos hemos encontrado esto, **en plena acera** es que no se da cuenta que el paso de peatones es precisamente para eso, **para pasar los peatones**
 
