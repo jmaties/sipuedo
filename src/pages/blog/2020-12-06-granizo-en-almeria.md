@@ -2,6 +2,9 @@
 templateKey: blog-post
 title: Granizo en Almeria
 date: 2005-02-07T19:09:32.266Z
+description: ""
+featuredpost: false
+featuredimage: ""
 tags:
   - almeria
 ---
