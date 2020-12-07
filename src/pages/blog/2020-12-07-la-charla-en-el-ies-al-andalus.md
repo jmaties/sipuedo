@@ -4,6 +4,7 @@ title: La charla en el IES Al Andalus
 date: 2007-05-19T18:59:49.079Z
 tags:
   - accesibilidad
+  - personal
 ---
 Al final, para ser mi primera charla, me gust­ó esto oye 
 
