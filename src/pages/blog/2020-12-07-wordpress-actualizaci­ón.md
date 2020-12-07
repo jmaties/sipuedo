@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: WordPress Actualizaci­ón
-date: 2020-12-07T19:04:08.912Z
+date: 2006-10-28T18:04:08.912Z
 tags:
   - wp
 ---
