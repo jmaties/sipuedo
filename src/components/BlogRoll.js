@@ -36,7 +36,7 @@ class BlogRoll extends React.Component {
                   {post.excerpt}
                   <br />
                   <br />
-                  <Link className="button" to={post.fields.slug}>
+                  <Link className="button is-light" to={post.fields.slug}>
                     Leer más →
                   </Link>
                 </p>

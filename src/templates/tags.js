@@ -35,7 +35,7 @@ class TagRoute extends React.Component {
                   <ul className="menu-list">{postLinks}</ul>
                 </div>
                 <p>
-                  <Link className="btn" to="/tags/">Ver todas las etiquetas</Link>
+                  <Link className="button is-light" to="/tags/">Ver todas las etiquetas</Link>
                 </p>
               </div>
             </div>
