@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Estadisticas
+title: Estadísticas
 date: 2005-05-26T22:50:49.260Z
 tags:
   - personal
