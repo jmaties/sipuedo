@@ -36,7 +36,6 @@ const Navbar = class extends React.Component {
     return (
       <nav
         className="navbar is-transparent"
-        role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
