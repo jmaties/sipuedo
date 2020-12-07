@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Guía Tejiendo una Web Accesible
-date: 2020-12-07T19:41:54.435Z
+date: 2007-03-30T18:41:54.435Z
 tags:
   - accesibilidad
 ---
