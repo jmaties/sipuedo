@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Guía de estilo sobre discapacidad
-date: 2020-12-07T19:32:34.581Z
+date: 2007-02-08T19:32:34.581Z
 tags:
   - accesibilidad
 ---
