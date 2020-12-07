@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Fin del viaje
-date: 2020-12-07T15:27:25.131Z
+date: 2007-08-23T14:27:25.131Z
 tags:
   - personal
 ---
