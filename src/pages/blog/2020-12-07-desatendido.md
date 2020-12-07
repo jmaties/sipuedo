@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Desatendido
 date: 2005-12-22T10:45:32.784Z
+description: Que me he casado ;)
 tags:
   - personal
 ---
