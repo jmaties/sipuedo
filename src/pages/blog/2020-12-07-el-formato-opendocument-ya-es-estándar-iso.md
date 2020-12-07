@@ -2,6 +2,8 @@
 templateKey: blog-post
 title: El formato OpenDocument ya es estándar ISO
 date: 2006-05-20T13:10:11.458Z
+description: Es una gran noticia para la comunidad del software libre que
+  defiende y usa los estándares abiertos. Se trata del estandar ISO 26300.
 tags:
   - open source
 ---
