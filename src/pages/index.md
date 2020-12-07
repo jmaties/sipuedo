@@ -7,7 +7,7 @@ subheading: Desarrollo web bajo open source y temas personales
 mainpitch:
   title: ¿Por qué Si Puedo?
   description: >
-    Hace unos 15 años que me hago esa pregunta y todavía no he logrado encontrar la respuesta
+    Hace unos años que me hago esa pregunta y todavía no he logrado encontrar la respuesta
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
   java’s origin and support the farmers that grew it. We take coffee production,
