@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Manos a la obra… despues de las vacaciones
-date: 2020-12-07T15:28:52.767Z
+date: 2006-08-23T14:28:52.767Z
 tags:
   - personal
   - wp
