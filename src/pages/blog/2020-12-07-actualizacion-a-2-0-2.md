@@ -3,7 +3,7 @@ templateKey: blog-post
 title: Actualizacion a 2.0.2
 date: 2006-03-11T11:31:10.370Z
 tags:
-  - WP
+  - wp
 ---
 
 Debido a un fallo de seguridad de WP, he tenido que actualizar la versión de Si Puedo a la 2.0.2, en estos momentos estoy con uno de los temas por defecto que trae esta version.
