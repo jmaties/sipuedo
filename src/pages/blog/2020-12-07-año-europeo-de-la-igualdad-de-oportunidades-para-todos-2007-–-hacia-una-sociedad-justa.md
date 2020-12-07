@@ -3,6 +3,7 @@ templateKey: blog-post
 title: Año europeo de la igualdad de oportunidades para todos (2007) – Hacia una
   sociedad justa
 date: 2006-06-01T13:24:34.879Z
+description: Igualdad de oportunidades
 tags:
   - personal
   - web
