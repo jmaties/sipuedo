@@ -4,6 +4,8 @@ title: Elecciones municipales Almeria 2007 – I (Editada)
 date: 2007-03-14T19:37:18.288Z
 tags:
   - web
+  - accesibilidad
+  - almeria
 ---
 Viendo que esta cerca el tema de las elecciones he querido ver como están las webs de los candidatos en cuanto a accesibilidad se refiere.
 
@@ -56,7 +58,7 @@ Web@x: **8.7**
 Aunque el análisis de las paginas ha sido automático, solo hay que darse una vuelta por las paginas para comprobar que no van muy desencaminados. Mientras que en la web del candidato socialista se han usado técnicas más modernas, el tema de la accesibilidad se ha dejado, creo que totalmente de lado (un menu en flash sin alternativo). De todas formas, a su favor, he de decir que da bastante informaci­ón nada más entrar.\
 La web del candidato popular es sin embargo mas sencilla que la de su oponente socialista, cumple los estándares, salvo esos “pequeños” errores CSS, y también las pautas de accesibilidad. En su contra, decir que no da prácticamente nada de informaci­ón al principio, bueno si una pequeña reseña en la parte de abajo a las ultimas noticias.
 
-***Editado 16 de Marzo de 2007 :** Vaya que sorpresa al ver la web de [Luis Rogelio](http://www.luisrogelio.com/ "Candidato PP") hoy, parece ser que han tenido en cuenta mis conclusiones y ya aparecen las noticias en la pagina principal ![😉](https://s.w.org/images/core/emoji/11/svg/1f609.svg) lástima que lo hayan hecho a costa de usar un c­ódigo menos accesible y estándar con lo que ha bajado su indice Web@x: a **7.7** y lo peor **3 errores de prioridad 2** seg­ún HERA cuando antes no tení­a ninguno*
+**\*Editado 16 de Marzo de 2007 :** Vaya que sorpresa al ver la web de [Luis Rogelio](http://www.luisrogelio.com/ "Candidato PP") hoy, parece ser que han tenido en cuenta mis conclusiones y ya aparecen las noticias en la pagina principal lástima que lo hayan hecho a costa de usar un c­ódigo menos accesible y estándar con lo que ha bajado su indice Web@x: a **7.7** y lo peor **3 errores de prioridad 2** seg­ún HERA cuando antes no tení­a ninguno*
 
 Salga quien salga elegido, parece ser que solo el candidato popular se ha preocupado que su pagina llega a más n­úmero de personas cumpliendo varias normas de accesibilidad y de estándares, lo peor de todo es que yo no comparto su ideologí­a pero he de reconocer que en el tema de su pagina “lo esta haciendo bastante mejor” que Nono Amate
 
