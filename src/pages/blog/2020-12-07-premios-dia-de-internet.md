@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Premios Dia de Internet
+title: Premios Día de Internet
 date: 2006-05-04T13:08:40.070Z
 tags:
   - accesibilidad
