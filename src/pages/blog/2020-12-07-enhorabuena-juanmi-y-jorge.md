@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: Enhorabuena Juanmi y Jorge
 date: 2006-06-17T13:29:03.223Z
+description: Felicidades
 tags:
   - personal
 ---
