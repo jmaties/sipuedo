@@ -1,4 +1,5 @@
 import React from 'react'
+import _get from 'lodash/get'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import { Helmet } from 'react-helmet'
@@ -14,6 +15,8 @@ export const BlogPostTemplate = ({
   title,
   date,
   helmet,
+  nextPostURL,
+  prevPostURL,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -41,6 +44,24 @@ export const BlogPostTemplate = ({
                 </ul>
               </div>
             ) : null}
+              <div className="paginacion">
+                {prevPostURL && (
+                  <Link
+                    className="prev"
+                    to={prevPostURL}
+                  >
+                    Anterior Post
+                  </Link>
+                )}
+                {nextPostURL && (
+                  <Link
+                    className="next"
+                    to={nextPostURL}
+                  >
+                    Siguiente Post
+                  </Link>
+                )}
+            </div>
           </div>
         </div>
       </div>
@@ -57,9 +78,9 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
-  const { markdownRemark: post } = data
-
+const BlogPost = ({ data: { post, allPosts } }) => {
+  //const { markdownRemark: post } = data
+  const thisEdge = allPosts.edges.find(edge => edge.node.id === post.id)
   return (
     <Layout>
       <BlogPostTemplate
@@ -78,6 +99,8 @@ const BlogPost = ({ data }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         date={post.frontmatter.date}
+        nextPostURL={_get(thisEdge, 'next.fields.slug')}
+        prevPostURL={_get(thisEdge, 'previous.fields.slug')}
       />
     </Layout>
   )
@@ -91,9 +114,28 @@ BlogPost.propTypes = {
 
 export default BlogPost
 
+// export const pageQuery = graphql`
+//   query BlogPostByID($id: String!) {
+//     markdownRemark(id: { eq: $id }) {
+//       id
+//       html
+//       frontmatter {
+//         date(formatString: "DD-MM-YYYY")
+//         title
+//         description
+//         tags
+//       }
+//     }
+//   }
+// `
+
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
-    markdownRemark(id: { eq: $id }) {
+  ## Query for SinglePost data
+  ## Use GraphiQL interface (http://localhost:8000/___graphql)
+  ## $id is processed via gatsby-node.js
+  ## query name must be unique to this file
+  query SinglePost($id: String!) {
+    post: markdownRemark(id: { eq: $id }) {
       id
       html
       frontmatter {
@@ -101,6 +143,32 @@ export const pageQuery = graphql`
         title
         description
         tags
+      }
+    }
+    allPosts: allMarkdownRemark(
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } } }
+      sort: { order: DESC, fields: [frontmatter___date] }
+    ) {
+      edges {
+        node {
+          id
+        }
+        next {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
+        previous {
+          fields {
+            slug
+          }
+          frontmatter {
+            title
+          }
+        }
       }
     }
   }
