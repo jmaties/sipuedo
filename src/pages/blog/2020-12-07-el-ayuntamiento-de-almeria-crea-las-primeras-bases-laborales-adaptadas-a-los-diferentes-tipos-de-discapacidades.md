@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: El Ayuntamiento de Almeria crea las primeras bases laborales adaptadas a
-  los diferentes tipos de discapacidades
+  los diferentes tipos de discapacidad
 date: 2006-09-21T14:43:38.658Z
 tags:
   - accesibilidad
