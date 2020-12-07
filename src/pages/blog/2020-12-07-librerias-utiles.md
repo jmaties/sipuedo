@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Librerias útiles
+title: Librerías útiles
 date: 2006-07-10T13:42:28.634Z
 tags:
   - utilidades
