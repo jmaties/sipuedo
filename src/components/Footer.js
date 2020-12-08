@@ -7,7 +7,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="footer has-background-black has-text-white-ter">
         <div className="content has-text-centered">
-          <p>Re-Hecho quitando algo de tiempo a <Link to="https://www.geekia.es">geekia.es</Link></p>
+          <p>Re-hecho quitando algo de tiempo a <a href="https://www.geekia.es">geekia.es</a> y probando <a href="https://www.netlifycms.org/">netlifycms.org</a> </p>
         </div>
       </footer>
     )
