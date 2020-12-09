@@ -4,6 +4,8 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #006680
 $kaldi-red-invert: #fff
+$geekia: #FF007A
+$enlace: #ffed00
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
@@ -96,21 +98,28 @@ footer.footer
   padding: 3rem 0rem
   background-color: transparent
 footer a
-  color: #f40
+  color: $enlace
+  text-decoration: underline
+footer a:hover
+  color: #fff
+  text-decoration: none
 .post
   min-height: 78vh
 .fecha
   font-size: 0.9rem
   padding-top: 0.5rem
 .paginacion
-  display: flex;
-  justify-content: space-between;
+  display: flex
+  justify-content: space-between
 .paginacion a
-  font-size: 0.8rem;
-  text-transform: uppercase;
-  background: #00668036;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  font-size: 0.8rem
+  text-transform: uppercase
+  background: #00668036
+  padding: 0.5rem 1rem
+  border-radius: 5px
+article .post-meta a:hover
+  text-decoration: none !important
+  color: #000 !important
 //Menu overrides
 $menu-item-color: $black
 $menu-item-hover-color: $black !important
@@ -120,7 +129,9 @@ $menu-item-active-background-color:	$kaldi-red-invert
 $menu-list-border-left: 1px solid $kaldi-red-invert
 $menu-label-color: $black
 
-
+a.geekia
+  color: $geekia !important
+  font-weight: bold !important
 .menu-label
   font-size: 1em !important
   text-align: left
@@ -148,14 +159,15 @@ $menu-label-color: $black
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #d6400033
 .blog-list-item header
-  display: flex;
-  margin-bottom: 1em;
+  display: flex
+  margin-bottom: 1em
 .blog-list-item .featured-thumbnail
-  flex-basis: 35%;
-  margin: 0 1.5em 0 0;
-
+  flex-basis: 35%
+  margin: 0 1.5em 0 0
+blockquote
+  background: #ccc
 
 @import "~bulma"
 @import "~bulma/sass/utilities/_all.sass"
@@ -165,12 +177,12 @@ $menu-label-color: $black
 // responsiveness
 +tablet-only
   .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+    flex-basis: 50%
 
 +mobile
   .blog-list-item header
     display: block
   .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+    text-align: center
+    max-width: 70%
+    margin: 0 0 1em
