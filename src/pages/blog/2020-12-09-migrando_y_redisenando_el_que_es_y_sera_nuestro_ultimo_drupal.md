@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Migrando y rediseñando el que es y será nuestro último drupal
-date: 2017-11-15T20:14:12.515Z
+date: 2017-11-15T18:01:27.855Z
 description: Proyecto en el que hemos trabajado ha sido la migración de un
   marketplace bajo drupal con una estructura un poco liosa y un theme bastante
   antiguo.
