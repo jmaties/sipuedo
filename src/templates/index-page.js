@@ -90,7 +90,7 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="column is-12 has-text-centered">
                 <p>Mucho más, pero sobre todo mejor en</p>
-                <Link className="geekia" to="http://www.geekia.es/">
+                <Link className="geekia" to="http://www.geekia.es/blog">
                   geekia.es
                 </Link>
                 </div>
