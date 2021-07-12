@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
                 <div className="column is-12 has-text-centered">
                 <p>Mucho más, pero sobre todo mejor en</p>
                 <Link className="geekia" to="http://www.geekia.es/">
-                  <img src="https://www.javiermaties.com/sipuedo/wp-content/uploads/2014/05/Logo_geekia.png" alt="Logo geekia" scale="0" />
+                  geekia.es
                 </Link>
                 </div>
               </div>
